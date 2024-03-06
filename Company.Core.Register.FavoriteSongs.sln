@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{04B50C92-F4D6-4DB7-9282-6E44DFBF5CA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A1F20F0F-65FC-4C71-8119-86FAAAD67E4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{BAAA89A9-33F4-440B-A73F-11CB590AB7BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Core.Register.FavoriteSongs.Api", "Company.Core.Register.FavoriteSongs.Api\Company.Core.Register.FavoriteSongs.Api.csproj", "{BB9D2DCA-0CBF-42FD-B878-549E9E520473}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB9D2DCA-0CBF-42FD-B878-549E9E520473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB9D2DCA-0CBF-42FD-B878-549E9E520473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB9D2DCA-0CBF-42FD-B878-549E9E520473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB9D2DCA-0CBF-42FD-B878-549E9E520473}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BAAA89A9-33F4-440B-A73F-11CB590AB7BA} = {04B50C92-F4D6-4DB7-9282-6E44DFBF5CA4}
+		{BB9D2DCA-0CBF-42FD-B878-549E9E520473} = {BAAA89A9-33F4-440B-A73F-11CB590AB7BA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75B0752F-AE5F-49B0-A049-736E9E5B2494}
+	EndGlobalSection
+EndGlobal
