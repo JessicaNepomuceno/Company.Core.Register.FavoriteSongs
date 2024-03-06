@@ -10,6 +10,7 @@ namespace Company.Core.Register.FavoriteSongs.Api.Controllers
         public Task<IActionResult> CreateAsync()
         {
             return Task.FromResult<IActionResult>(Ok());
+
         }
     }
 }
