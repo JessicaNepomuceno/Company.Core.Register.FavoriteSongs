@@ -1,0 +1,1 @@
+Company.Core.Register.FavoriteSongs
